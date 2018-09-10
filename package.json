@@ -1,0 +1,10 @@
+{
+  "name": "node-elm-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "elm make src/Server.elm --optimize --output elm.js && node index.js",
+    "dev": "elm make src/Server.elm --output elm.js && node index.js"
+  }
+}
